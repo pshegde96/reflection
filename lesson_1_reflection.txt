@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It was easy to find the bug in a large file as the diff command pin-pointed the exact locations where the changes were made.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It would be easy for me to find bugs in the newer versions of the file by comparing it to the older version of the working files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Manual Commit: The pros of manual commit are that they allow us to commit logical changes. Cons are that they are vulnerable to manual errors.
+Automatic Commit: The pros of automatic commit are that the user doesn't have to worry about when to save his changes and can continue on his project. However it has a con that all the commits may not be logical and some commits may save syntactically wrong code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is made for the purpose of writing code. And, in writing code we will need to track changes in multiple files simultaneously as they could be related to each other.
+On the other hand, we usually use Google Docs to work on documents, and here changes across multiple files are usually unrelated. That is why Google Docs only tracks changes in one file at once.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log : This command is used to view the history of all the commits in the made in the repository. use --stat flag to also recover the stats of changes made in the that particular commit.
+
+git diff: This command is used to find the difference between two previous versions of the files. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Using git checkout I can easily find the version of the repository where the bug was introduced and correct it. Therefore I can be more confident about introducing changes that could break something, as I can easily revert it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Using git it is much easier for me to fix bugs and keep track of older versions of my file. So I plan on using git for all my projects.
