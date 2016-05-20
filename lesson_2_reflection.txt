@@ -10,8 +10,12 @@ We add those files which we want to commit to the staging area. This is differen
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Once the file has been added to the staging area, run git diff --staged. This gives the difference between the latest commit and the staged area.Check and make sure that you have 1 logical change only.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Branches are helpful when we want to try out some new features which we are not sure would work.If they don't work, we can simply come back to the main branch. Also, if there were some bug fixes in the main branch, we could easily change and keep track of them without creating too much overhead.
 
 How do the diagrams help you visualize the branch structure?
 
